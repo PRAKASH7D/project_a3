@@ -57,6 +57,7 @@ nav img {
     border-radius: 4px;
     color: white;
     transition: all ease-in-out .2s;
+    cursor: pointer;
 }
 
 #nav-buttons button:hover {
@@ -541,6 +542,7 @@ nav img {
     color: white;
     font-weight: 700;
     margin-top: 8px;
+    transition: all ease 0.2s;
 }
 
 .sub-MeetOurTeam form button:hover {
