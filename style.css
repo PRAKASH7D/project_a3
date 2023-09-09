@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root{
+    scroll-behavior: smooth;
+}
+
 nav {
     height: 80px;
     display: flex;
@@ -57,6 +61,7 @@ nav img {
 
 #nav-buttons button:hover {
     background-color: #99b120;
+    box-shadow: 5px 5px 0px #000;
 }
 
 /* Section 1 */
@@ -540,6 +545,7 @@ nav img {
 
 .sub-MeetOurTeam form button:hover {
     background-color: #99b120;
+    box-shadow: 5px 5px 0px #000;
 }
 
 .sub-MeetOurTeam form .text-box {
